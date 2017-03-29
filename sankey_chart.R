@@ -4,8 +4,8 @@ rm(list=ls())
 library(googleVis)
 library(RColorBrewer)
 
-####
-setwd("/Users/tetyanasydorenko/Rprojects/")
+#### set working directory for your output
+setwd("/Desktop/")
 
 # create data set
 channels<- c("direct", "sea", "seo", "newsletter","other")
